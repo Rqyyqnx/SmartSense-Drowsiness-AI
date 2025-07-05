@@ -48,23 +48,6 @@
     <a href="https://github.com/Rqyyqnx" target="_blank" class="cta">View on GitHub</a>
   </section>
 
-  <!-- Live Try-It-Yourself Demo -->
-  <section class="section" id="live-demo">
-    <h2 data-aos="fade-up">Try It Yourself</h2>
-    <p data-aos="fade-up" data-aos-delay="200">
-      See how SmartSense detects drowsiness in real time using your webcam.
-    </p>
-
-    <div id="demo-container" data-aos="zoom-in" data-aos-delay="400">
-      <video id="inputVideo" autoplay muted playsinline></video>
-      <canvas id="outputCanvas"></canvas>
-    </div>
-
-    <p id="alert" style="text-align: center; font-weight: bold; color: red; display: none;">
-      ⚠️ You look drowsy!
-    </p>
-  </section>
-
   <!-- About Section -->
   <section class="section" id="about">
     <h2 data-aos="fade-up">About the Creator</h2>
@@ -84,11 +67,5 @@
   <script>
     AOS.init({ duration: 1000 });
   </script>
-
-  <!-- MediaPipe + Drowsiness Detection Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
-  <script src="drowsiness.js"></script>
 </body>
 </html>
